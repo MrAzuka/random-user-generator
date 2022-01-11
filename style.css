@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#app {
+    width: 250px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h3 {
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px grey solid;
+    margin-bottom: 1rem;
+}
+
+.male {
+    border-color: steelblue;
+    background-color: steelblue;
+}
+
+.female {
+    border-color: palevioletred;
+    background-color: palevioletred;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    background-color: grey;
+    color:white;
+    font-size: 18px;
+    border: 0;
+    padding: 1rem 1.5rem;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    transform:scale(0.98)
+}
